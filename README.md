@@ -1,4 +1,4 @@
-Tic-tac-toe
+# Tic-tac-toe
 
 Your task is to write a program to play [tic-tac-toe](http://en.wikipedia.org/wiki/Tic-tac-toe) in the
 terminal. When the program is invoked, it must let the user pick whether to play as `X` or `O`,
@@ -6,6 +6,7 @@ and then run through the game letting the user play against the computer. When i
 turn, you must display the current state of the board and give the user a choice of which square
 to play next. The game must stop when one player wins or when the board is full.
 A typical session might look like this:
+```
 $ ./bin/ttt
 Which player do you want to be? X or O?
 O
@@ -53,7 +54,7 @@ A B C
 +---+---+---+
 
 O has won!
-
+```
 
 
 You are free to write the program however you like, and use any language, libraries and tools
@@ -65,3 +66,7 @@ If you are subsequently invited in for an interview then we may discuss your sol
 With this in mind you may wish to take brief notes as you work to aid your memory at a later
 date.
 Good luck :)
+
+
+# Usage
+`./bin/ttt`
